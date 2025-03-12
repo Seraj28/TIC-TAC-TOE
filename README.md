@@ -20,13 +20,6 @@ A simple and interactive **Tic Tac Toe** game built using **HTML, CSS, and JavaS
 4. If all squares are filled and no player wins, it's a **draw**.  
 5. Click the **restart button** to play again.  
 
-## 📥 Installation  
-1. Clone the repository:  
-   ```sh
-   git clone  https://github.com/Seraj28/TIC-TAC-TOE.git
 
-
-
-   
-   ## 📬 Connect with Me  
+## 📬 Connect with Me  
 💼 [LinkedIn Profile](https://www.linkedin.com/in/md-s-14aa3127a)
