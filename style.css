@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #548687;
+    text-align: center; /* text  center hoga */
+}
+
+.container {
+    height: 70vh; /*page ka 70%  */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    /* jis tarah ye sari properties use kerke game div m box center hogaye same ab container div m box div center hojayega */
+}
+
+.game {
+    height: 60vmin; /*dimesion ka 60%  */
+    width: 60vmin; /*dimesion ka 60%  */
+    display: flex; /* This is magic box u know  */
+    flex-wrap: wrap; /* same line m jaga nahi hai to niche ajao  */
+    justify-content: center; /* game div k main(horizona) axis yani left right se center ho jayega sara button jo esme hai */
+    align-items: center; /* game div k cross(vertical) axis yani top botton se center ho jayega sara button jo esme hai */
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin; /*dimesion ka 18%  */
+    width: 18vmin;  /*dimesion ka 18%  */
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 8vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+
+.hide {
+    display: none;
+}
